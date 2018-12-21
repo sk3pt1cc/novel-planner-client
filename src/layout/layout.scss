@@ -1,0 +1,12 @@
+$backgroundColor: #4e545b;
+
+.layout {
+    &__site-header {
+        font-size: 2rem;
+        background-color: darken($backgroundColor, 10%);
+        padding: 16px;
+    }
+    &__page-content {
+        padding: 16px;
+    }
+}
